@@ -277,7 +277,7 @@ class EdgeProjection : public g2o::BaseUnaryEdge<2, Eigen::Vector2d, VertexPose>
 };
 
 void bundleAdjustmentG2O(const VecVector3d &points_3d,
-		const VecVector3d &points_2d,
+		const VecVector2d &points_2d,
 		const Mat &K,
 		Sophus::SE3d &pose){
 	//构建图优化，先设定g2o
