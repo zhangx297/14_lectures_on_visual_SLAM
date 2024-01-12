@@ -77,7 +77,7 @@ class EdgeProjectXYZRGBDPoseOnly : public g2o::BaseUnaryEdge<3, Eigen::Vector3d,
 	    }
 
 	    bool read(istream &in) {}
-	    bool write(ostream &out) {}
+	    bool write(ostream &out) const {}
     protected:
 	    Eigen::Vector3d _point;
 };
