@@ -9,3 +9,11 @@ ch7 Feature based Visual Odometry
 ch8 Direct (Intensity based) Visual Odometry
 
 ## Requirements.txt
+Eigen == 3.3.7
+Ceres == 2.0.0
+Opencv == 4.5.4
+fmt == 10.1.2
+Sophus
+Pangolin
+g2o
+
